@@ -1,0 +1,150 @@
+@charset "UTF-8";
+
+@font-face {
+    font-family: 'fonte';
+    src: url(pacote-projeto-d010/fontes/idroid.otf) format('truetype');
+}
+
+.historia {
+    font-family: 'fonte', Arial, Helvetica, sans-serif;
+    color: green;
+}
+
+h3 {
+    font-family: 'fonte', Arial, Helvetica, sans-serif;
+    color: green;
+    background: linear-gradient(to right,rgba(78, 235, 78, 0.484),white);
+}
+
+
+.titulo {
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    font-weight: bold;
+}
+
+header {
+    padding-bottom: 15px;
+    padding-top: 25px;
+    margin: 0px;
+    background:linear-gradient(to bottom,#3fdb90 70%,rgba(0, 0, 0, 0.852));
+    color: white;  
+}
+
+body {
+    margin: 0;
+    background-color: beige;
+    text-align: justify;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+header > p {
+    text-align: center;
+}
+
+nav > a{
+    text-decoration: none;
+    margin-right: 20px;
+    color: white;
+    font-weight: bold;
+    padding-left: 10px;
+}
+
+nav > a:hover {
+    background-color: #3fdb9077;
+    border: 10px;
+
+}
+
+main {
+    line-height: 1.2em;
+    min-width: 320px;
+    max-width: 800px;
+    margin: auto;
+    background-color: white;
+}
+
+.video {
+    text-align: center;
+    background-color: green;
+    margin: auto;
+  
+}
+
+article {
+    padding: 15px;
+    padding-top: 10px;
+}
+
+.irina-blok{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.Bugdroid {
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+    margin: auto;
+}
+
+aside {
+    background-color: white;
+    padding-top: 3px;
+    min-width: 320px;
+    max-width: 800px;
+    margin: auto;
+}
+
+.borda{
+    background-color: rgba(51, 224, 51, 0.468);
+    margin: 40px;
+    border-radius: 7px;
+}
+
+.borda > p {
+    margin: 18px;
+}
+
+.rodape {
+    color: white;
+    background-color: green;
+    padding: 10px;
+    border-radius: 9px;
+}
+
+footer{
+    background-color: green;
+    text-align: center;
+    color: white;
+    margin: auto;
+}
+
+p{
+    text-indent: 25px;
+    text-align: justify;
+}
+
+.final {
+    text-align: justify;
+    margin: 40px;
+    padding-bottom: 15px;
+}
+.listas {
+  display: flex;
+}
+
+span {
+    color: rgba(1, 85, 1, 0.639);
+}
+
+a:hover {
+    background-color: rgb(147, 248, 147);
+    color: black;
+    text-decoration: none;
+}
+
+.link {
+    background-color: #3fdb90;
+}
